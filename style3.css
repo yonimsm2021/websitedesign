@@ -1,0 +1,81 @@
+
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(back.jpg);
+    background-attachment:fixed;
+    background-blend-mode: darken;
+    height:440vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar
+{
+    background: rgb(0,0,0,0.5);
+    height: 80px;
+}
+.logo
+{
+    margin: 60px 120px;
+    height: 100px;
+}
+.menu
+{
+    float: right;
+    list-style: none;
+    margin: 20px;    
+}
+.menu li
+{
+    display: inline-block;
+    margin: 10px 5px;
+}
+.menu li a
+{
+    text-decoration: none;
+    color:  rgba(248, 232, 12, 0.986);
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid  rgba(248, 232, 12, 0.986);
+    transition: 0;
+}
+.menu li a:hover
+{
+    background:  rgba(248, 232, 12, 0.986);
+    transition: 4s;
+    color: #000;
+}
+.welcome
+{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color:  rgba(248, 232, 12, 0.986);
+    top: 50px;
+}
+.welcome h1
+{
+    font-size: 40px;
+    margin: 25px;
+}    
+p
+{
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+ol
+{
+    text-decoration: none;
+    color:  rgba(248, 232, 12, 0.986);
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px; 
+    font-size: 27px;  
+}
